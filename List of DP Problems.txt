@@ -1,0 +1,639 @@
+# 200 Medium to Hard Dynamic Programming Problems
+
+## Classic Dynamic Programming Problems
+
+1. **Coin Change** (LeetCode #322)
+   - Find the fewest number of coins that you need to make up a given amount.
+
+2. **Longest Increasing Subsequence** (LeetCode #300)
+   - Find the length of the longest strictly increasing subsequence.
+
+3. **Edit Distance** (LeetCode #72)
+   - Convert one string to another with the minimum number of operations.
+
+4. **Maximum Subarray** (LeetCode #53)
+   - Find the contiguous subarray with the largest sum.
+
+5. **Unique Paths** (LeetCode #62)
+   - Count all possible paths from top-left to bottom-right of a grid.
+
+6. **Climbing Stairs with Cost** (LeetCode #746)
+   - Minimum cost to climb stairs where each step has an associated cost.
+
+7. **House Robber** (LeetCode #198)
+   - Determine the maximum amount of money you can rob without alerting the police.
+
+8. **Partition Equal Subset Sum** (LeetCode #416)
+   - Determine if a given set can be partitioned into two subsets with equal sum.
+
+9. **Decode Ways** (LeetCode #91)
+   - Count the number of ways to decode a message.
+
+10. **Word Break** (LeetCode #139)
+    - Determine if a string can be segmented into words from a dictionary.
+
+## String Dynamic Programming
+
+11. **Longest Common Subsequence** (LeetCode #1143)
+    - Find the length of the longest common subsequence between two strings.
+
+12. **Palindromic Substrings** (LeetCode #647)
+    - Count how many palindromic substrings in a string.
+
+13. **Distinct Subsequences** (LeetCode #115)
+    - Count distinct subsequences matching a pattern.
+
+14. **Regular Expression Matching** (LeetCode #10)
+    - Implement wildcard pattern matching with support for '.' and '*'.
+
+15. **Interleaving String** (LeetCode #97)
+    - Determine if s3 is formed by interleaving s1 and s2.
+
+16. **Minimum ASCII Delete Sum for Two Strings** (LeetCode #712)
+    - Find the lowest ASCII sum of deleted characters to make two strings equal.
+
+17. **Longest Palindromic Subsequence** (LeetCode #516)
+    - Find the longest palindromic subsequence's length.
+
+18. **Shortest Common Supersequence** (LeetCode #1092)
+    - Find the shortest string that has both strings as subsequences.
+
+19. **Count Different Palindromic Subsequences** (LeetCode #730)
+    - Count different palindromic subsequences in a string.
+
+20. **Wildcard Matching** (LeetCode #44)
+    - Implement wildcard pattern matching with '?' and '*'.
+
+## Grid-Based Dynamic Programming
+
+21. **Unique Paths II** (LeetCode #63)
+    - Count paths with obstacles in the grid.
+
+22. **Minimum Path Sum** (LeetCode #64)
+    - Find the path with minimum sum from top-left to bottom-right.
+
+23. **Dungeon Game** (LeetCode #174)
+    - Calculate the minimum initial health needed to rescue the princess.
+
+24. **Maximal Square** (LeetCode #221)
+    - Find the largest square containing only 1's in a binary matrix.
+
+25. **Cherry Pickup** (LeetCode #741)
+    - Collect maximum cherries while walking through grid forward and backward.
+
+26. **Minimum Falling Path Sum** (LeetCode #931)
+    - Find the minimum sum of a falling path through an n x n matrix.
+
+27. **Out of Boundary Paths** (LeetCode #576)
+    - Find the number of paths to move the ball out of the grid boundary.
+
+28. **Knight Probability in Chessboard** (LeetCode #688)
+    - Probability of knight remaining on board after K moves.
+
+29. **Largest 1-Bordered Square** (LeetCode #1139)
+    - Find largest square with all 1's on its border.
+
+30. **2D Range Sum Query** (LeetCode #304)
+    - Efficiently find sum within rectangle region.
+
+## Interval Dynamic Programming
+
+31. **Burst Balloons** (LeetCode #312)
+    - Maximize coins by bursting balloons.
+
+32. **Minimum Cost to Merge Stones** (LeetCode #1000)
+    - Merge piles of stones with minimum cost.
+
+33. **Remove Boxes** (LeetCode #546)
+    - Remove boxes to maximize points.
+
+34. **Strange Printer** (LeetCode #664)
+    - Minimum number of turns to print a string.
+
+35. **Arithmetic Slices II - Subsequence** (LeetCode #446)
+    - Count the number of arithmetic subsequences.
+
+36. **Predict the Winner** (LeetCode #486)
+    - Determine if Player 1 can win a number-picking game.
+
+37. **Optimal Division** (LeetCode #553)
+    - Add parentheses to maximize the result.
+
+38. **Scramble String** (LeetCode #87)
+    - Determine if one string is a scramble of another.
+
+39. **Minimum Score Triangulation of Polygon** (LeetCode #1039)
+    - Find minimum score triangulation of a convex polygon.
+
+40. **Palindrome Partitioning II** (LeetCode #132)
+    - Minimum cuts needed for a palindrome partitioning.
+
+## State Compression Dynamic Programming
+
+41. **Partition to K Equal Sum Subsets** (LeetCode #698)
+    - Partition array into k subsets with equal sum.
+
+42. **Profitable Schemes** (LeetCode #879)
+    - Count the number of profitable schemes with constraints.
+
+43. **Stickers to Spell Word** (LeetCode #691)
+    - Minimum stickers needed to spell out target.
+
+44. **Number of Ways to Wear Different Hats to Each Other** (LeetCode #1434)
+    - Count ways for n people to wear n distinct hats.
+
+45. **Minimum Cost to Connect Two Groups of Points** (LeetCode #1595)
+    - Connect every point in the first group to at least one point in the second group.
+
+46. **Smallest Sufficient Team** (LeetCode #1125)
+    - Form smallest team that possesses all required skills.
+
+47. **Maximum Score Words Formed by Letters** (LeetCode #1255)
+    - Find maximum score of words formed by letters.
+
+48. **Number of Music Playlists** (LeetCode #920)
+    - Count possible playlists with constraints.
+
+49. **Campus Bikes II** (LeetCode #1066)
+    - Assign bikes to workers to minimize total Manhattan distance.
+
+50. **Allocate Mailboxes** (LeetCode #1478)
+    - Allocate mailboxes to minimize total distance.
+
+## Tree Dynamic Programming
+
+51. **Binary Tree Maximum Path Sum** (LeetCode #124)
+    - Find the maximum path sum in a binary tree.
+
+52. **House Robber III** (LeetCode #337)
+    - Rob houses arranged as a binary tree without alerting police.
+
+53. **Diameter of Binary Tree** (LeetCode #543)
+    - Find the longest path between any two nodes in a tree.
+
+54. **Unique Binary Search Trees** (LeetCode #96)
+    - Count structurally unique BSTs with n nodes.
+
+55. **Unique Binary Search Trees II** (LeetCode #95)
+    - Generate all structurally unique BSTs with n nodes.
+
+56. **Binary Trees With Factors** (LeetCode #823)
+    - Count the number of binary trees where each node's value is the product of its children.
+
+57. **Minimum Cost Tree From Leaf Values** (LeetCode #1130)
+    - Given array of leaf values, build tree with minimum cost.
+
+58. **Number of Ways to Reorder Array to Get Same BST** (LeetCode #1569)
+    - Count different array orderings that result in same BST.
+
+59. **Sum of Distances in Tree** (LeetCode #834)
+    - Calculate sum of distances between all pairs of nodes in a tree.
+
+60. **Count Number of Teams** (LeetCode #1395)
+    - Count increasing or decreasing triplets in an array.
+
+## Knapsack-Type Problems
+
+61. **Coin Change 2** (LeetCode #518)
+    - Count the number of ways to make a given amount with coins.
+
+62. **Target Sum** (LeetCode #494)
+    - Find number of ways to assign + and - to reach target sum.
+
+63. **Ones and Zeroes** (LeetCode #474)
+    - Find largest subset of strings with limited binary digits.
+
+64. **Combination Sum IV** (LeetCode #377)
+    - Number of possible combinations that add up to target.
+
+65. **Last Stone Weight II** (LeetCode #1049)
+    - Find smallest possible weight of last stone after smashing.
+
+66. **Perfect Squares** (LeetCode #279)
+    - Find the least number of perfect square numbers that sum to n.
+
+67. **Minimum Number of Refueling Stops** (LeetCode #871)
+    - Minimum refueling stops to reach destination.
+
+68. **Profitable Schemes** (LeetCode #879)
+    - Count profitable schemes with constraints.
+
+69. **Form Largest Integer With Digits That Add up to Target** (LeetCode #1449)
+    - Find the largest integer with digit sum equal to target.
+
+70. **Minimum Insertion Steps to Make a String Palindrome** (LeetCode #1312)
+    - Find minimum number of insertions to make string palindrome.
+
+## Game Theory Dynamic Programming
+
+71. **Stone Game** (LeetCode #877)
+    - Determine if player can win a game of taking piles of stones.
+
+72. **Stone Game II** (LeetCode #1140)
+    - Maximize score in a stone-picking game with constraints.
+
+73. **Stone Game III** (LeetCode #1406)
+    - Determine winner in a game of taking 1-3 stones.
+
+74. **Stone Game IV** (LeetCode #1510)
+    - Determine if player can win by taking square number of stones.
+
+75. **Nim Game** (LeetCode #292)
+    - Determine if you can win a Nim game.
+
+76. **Divisor Game** (LeetCode #1025)
+    - Determine if you can win a number game with divisors.
+
+77. **Cat and Mouse** (LeetCode #913)
+    - Determine who wins in cat and mouse game.
+
+78. **Can I Win** (LeetCode #464)
+    - Determine if the first player can win in a picking game.
+
+79. **Flip Game II** (LeetCode #294)
+    - Determine if you can win a string flipping game.
+
+80. **Guess Number Higher or Lower II** (LeetCode #375)
+    - Find the minimum amount of money to guarantee a win.
+
+## Subsequence Problems
+
+81. **Longest Increasing Subsequence** (LeetCode #300)
+    - Find the length of the longest increasing subsequence.
+
+82. **Number of Longest Increasing Subsequence** (LeetCode #673)
+    - Count the number of LIS in an array.
+
+83. **Wiggle Subsequence** (LeetCode #376)
+    - Find the length of the longest wiggle subsequence.
+
+84. **Longest Arithmetic Subsequence** (LeetCode #1027)
+    - Find the longest arithmetic subsequence in an array.
+
+85. **Longest Arithmetic Subsequence of Given Difference** (LeetCode #1218)
+    - Find length of longest subsequence with constant difference.
+
+86. **Arithmetic Slices** (LeetCode #413)
+    - Count number of arithmetic slices in an array.
+
+87. **Maximum Length of Pair Chain** (LeetCode #646)
+    - Find length of longest chain of pairs.
+
+88. **Delete Operation for Two Strings** (LeetCode #583)
+    - Find minimum deletion steps to make two strings equal.
+
+89. **Longest Turbulent Subarray** (LeetCode #978)
+    - Find length of longest turbulent subarray.
+
+90. **Uncrossed Lines** (LeetCode #1035)
+    - Find maximum number of uncrossed connecting lines.
+
+## Advanced Dynamic Programming
+
+91. **Frog Jump** (LeetCode #403)
+    - Determine if frog can cross river by jumping on stones.
+
+92. **Split Array Largest Sum** (LeetCode #410)
+    - Minimize the largest sum among m subarrays.
+
+93. **Freedom Trail** (LeetCode #514)
+    - Minimum number of rotations to spell a word.
+
+94. **Student Attendance Record II** (LeetCode #552)
+    - Count number of ways for student to be rewarded.
+
+95. **Minimum Number of Days to Eat N Oranges** (LeetCode #1553)
+    - Find minimum days to eat all oranges.
+
+96. **Paint House III** (LeetCode #1473)
+    - Minimum cost to paint houses with neighborhood constraints.
+
+97. **K Inverse Pairs Array** (LeetCode #629)
+    - Count arrays with exactly k inverse pairs.
+
+98. **Count Vowels Permutation** (LeetCode #1220)
+    - Count vowel permutations following certain rules.
+
+99. **Minimum Difficulty of a Job Schedule** (LeetCode #1335)
+    - Minimum difficulty to schedule jobs over d days.
+
+100. **Number of Ways to Form a Target String Given a Dictionary** (LeetCode #1639)
+     - Count ways to form target string from dictionary.
+
+## Graph Dynamic Programming
+
+101. **Minimum Cost to Cut a Stick** (LeetCode #1547)
+     - Find minimum cost to cut a stick with given cut positions.
+
+102. **Maximum Vacation Days** (LeetCode #568)
+     - Maximum vacation days by switching between cities.
+
+103. **Minimum Cost For Tickets** (LeetCode #983)
+     - Minimum cost for travel tickets with different durations.
+
+104. **Find the Shortest Superstring** (LeetCode #943)
+     - Find shortest superstring that contains all given strings.
+
+105. **Minimum Number of Refueling Stops** (LeetCode #871)
+     - Minimum refueling stops to reach destination.
+
+106. **Encode String with Shortest Length** (LeetCode #471)
+     - Encode string to minimize length with run-length encoding.
+
+107. **Shortest Path Visiting All Nodes** (LeetCode #847)
+     - Find shortest path visiting all nodes in graph.
+
+108. **Minimum Cost to Merge Stones** (LeetCode #1000)
+     - Minimum cost to merge stones into k piles.
+
+109. **Minimum Total Space Wasted With K Resizing Operations** (LeetCode #1959)
+     - Minimize wasted space with limited resizing operations.
+
+110. **Minimum Cost to Connect Sticks** (LeetCode #1167)
+     - Find minimum cost to connect all sticks.
+
+## 3D Dynamic Programming
+
+111. **Cherry Pickup II** (LeetCode #1463)
+     - Maximum cherries collected by two robots.
+
+112. **Pizza With 3n Slices** (LeetCode #1388)
+     - Maximum sum of pizza slices with constraints.
+
+113. **Different Ways to Add Parentheses** (LeetCode #241)
+     - Compute all possible results with different parentheses.
+
+114. **Tiling a Rectangle with the Fewest Squares** (LeetCode #1240)
+     - Find minimum number of squares to tile a rectangle.
+
+115. **3D Matching** (Codeforces)
+     - Find maximum cardinality matching in a 3D graph.
+
+116. **Dice Throw** (Codeforces)
+     - Count ways to get sum with given number of dice.
+
+117. **Count All Valid Pickup and Delivery Options** (LeetCode #1359)
+     - Count valid pickup and delivery sequences.
+
+118. **Number of Ways to Paint N × 3 Grid** (LeetCode #1411)
+     - Count ways to paint grid with 3 colors, no adjacent same colors.
+
+119. **Maximum Number of Non-Overlapping Subarrays With Sum Equals Target** (LeetCode #1546)
+     - Find maximum number of non-overlapping subarrays with target sum.
+
+120. **Partition Array for Maximum Sum** (LeetCode #1043)
+     - Partition array to maximize sum with constraints.
+
+## String Matching and Transformation
+
+121. **Longest Valid Parentheses** (LeetCode #32)
+     - Find the length of the longest valid parentheses substring.
+
+122. **New 21 Game** (LeetCode #837)
+     - Probability of staying under limit in a card game.
+
+123. **String Compression II** (LeetCode #1531)
+     - Minimum length after deleting k characters.
+
+124. **Maximum Product of the Length of Two Palindromic Subsequences** (LeetCode #2002)
+     - Find two non-overlapping palindromic subsequences with maximum product of lengths.
+
+125. **Count Palindromic Subsequences** (LeetCode #730)
+     - Count total number of distinct palindromic subsequences.
+
+126. **Longest Happy Prefix** (LeetCode #1392)
+     - Find the longest prefix which is also a suffix.
+
+127. **Distinct Subsequences II** (LeetCode #940)
+     - Count number of distinct subsequences in a string.
+
+128. **Count Different Palindromic Subsequences** (LeetCode #730)
+     - Count different palindromic subsequences in a string.
+
+129. **Replace Words** (LeetCode #648)
+     - Replace words with their root in a sentence.
+
+130. **Longest String Chain** (LeetCode #1048)
+     - Find longest possible word chain.
+
+## Number Theory and Digit DP
+
+131. **Numbers At Most N Given Digit Set** (LeetCode #902)
+     - Count valid numbers with given digits.
+
+132. **Non-negative Integers without Consecutive Ones** (LeetCode #600)
+     - Count numbers without consecutive one bits.
+
+133. **Count Numbers with Unique Digits** (LeetCode #357)
+     - Count numbers with all unique digits.
+
+134. **Number of Digit One** (LeetCode #233)
+     - Count total number of digit 1 appearing in numbers.
+
+135. **Numbers With Repeated Digits** (LeetCode #1012)
+     - Count numbers with at least one repeated digit.
+
+136. **Count Stepping Numbers** (Codeforces)
+     - Count numbers where adjacent digits differ by exactly 1.
+
+137. **Digit Count in Range** (Codeforces)
+     - Count occurrences of each digit in range.
+
+138. **Number of Music Playlists** (LeetCode #920)
+     - Count possible music playlists with constraints.
+
+139. **Digit DP - Sum of Digits** (Codeforces)
+     - Sum of all digits in a range of numbers.
+
+140. **Digit DP - Lucky Numbers** (Codeforces)
+     - Count lucky numbers in a range.
+
+## Codeforces Dynamic Programming Problems
+
+141. **Optimal Binary Search Tree** (Codeforces)
+     - Construct optimal BST to minimize search cost.
+
+142. **Tourist Problem** (Codeforces)
+     - Maximize collected points in a grid.
+
+143. **Knapsack with Duplicate Items** (Codeforces)
+     - Maximize value with unlimited items.
+
+144. **Two Arrays** (Codeforces)
+     - Find number of ways to distribute elements into two arrays.
+
+145. **Boredom** (Codeforces)
+     - Maximum points by removing consecutive numbers.
+
+146. **Cut Ribbon** (Codeforces)
+     - Cut ribbon into maximum number of pieces of fixed lengths.
+
+147. **Caesar's Legions** (Codeforces)
+     - Count valid formations of two types of warriors.
+
+148. **Palindrome Transformation** (Codeforces)
+     - Minimum cost to make string palindrome with circular keyboard.
+
+149. **Money Sums** (CSES)
+     - Find all possible sums of coins.
+
+150. **Tetrahedron** (Codeforces)
+     - Count paths returning to starting vertex on tetrahedron.
+
+## AtCoder Dynamic Programming Problems
+
+151. **Frog 2** (AtCoder)
+     - Minimum cost for frog to jump with variable distances.
+
+152. **Vacation** (AtCoder)
+     - Maximum happiness from daily activities.
+
+153. **Knapsack 2** (AtCoder)
+     - Maximum value with weight constraint.
+
+154. **Longest Path** (AtCoder)
+     - Find longest path in a directed acyclic graph.
+
+155. **Grid 1** (AtCoder)
+     - Count paths in a grid with obstacles.
+
+156. **Coins** (AtCoder)
+     - Expected value of coin flips.
+
+157. **Sushi** (AtCoder)
+     - Expected number of operations to empty plates.
+
+158. **Deque** (AtCoder)
+     - Game theory with removal from either end of array.
+
+159. **Matching** (AtCoder)
+     - Count valid matchings between two groups.
+
+160. **Independent Set** (AtCoder)
+     - Maximum independent set in a tree.
+
+## SPOJ Dynamic Programming Problems
+
+161. **Bytelandian Gold Coins** (SPOJ)
+     - Maximize value by exchanging coins.
+
+162. **Mixtures** (SPOJ)
+     - Minimize smoke when mixing color mixtures.
+
+163. **Alphacode** (SPOJ)
+     - Count number of possible decodings of a message.
+
+164. **Aibohphobia** (SPOJ)
+     - Minimum insertions to make a palindrome.
+
+165. **LISA - Lizards and Baskets** (SPOJ)
+     - Distribute lizards in baskets with constraints.
+
+166. **Rent Your Airplane and Make Money** (SPOJ)
+     - Maximum profit from renting airplane.
+
+167. **Bishops** (SPOJ)
+     - Maximum number of bishops on a chessboard.
+
+168. **MARTIAN - Martian Mining** (SPOJ)
+     - Maximum resources collected from a grid.
+
+169. **SQRBR - Square Brackets** (SPOJ)
+     - Count valid bracket sequences with fixed positions.
+
+170. **Permutation Counting** (SPOJ)
+     - Count permutations with constraints.
+
+## HackerRank Dynamic Programming Problems
+
+171. **Sam and Substrings** (HackerRank)
+     - Sum of all substrings of a number.
+
+172. **Sherlock and Cost** (HackerRank)
+     - Maximize absolute difference between adjacent elements.
+
+173. **Kingdom Division** (HackerRank)
+     - Count ways to divide a kingdom.
+
+174. **Abbreviation** (HackerRank)
+     - Check if string can be transformed to another by operations.
+
+175. **Far Vertices** (HackerRank)
+     - Select vertices to minimize maximum distance.
+
+176. **Grid Walking** (HackerRank)
+     - Count ways to walk on grid with boundaries.
+
+177. **Equal** (HackerRank)
+     - Minimum operations to make all array elements equal.
+
+178. **The Longest Common Subsequence** (HackerRank)
+     - Find the longest common subsequence.
+
+179. **The Longest Increasing Subsequence** (HackerRank)
+     - Find the longest increasing subsequence.
+
+180. **Coin Change Problem** (HackerRank)
+     - Count ways to make change with coins.
+
+## Miscellaneous Hard Dynamic Programming Problems
+
+181. **Minimum Number of K Consecutive Bit Flips** (LeetCode #995)
+     - Minimum flips to make all bits 1.
+
+182. **Allocate Mailboxes** (LeetCode #1478)
+     - Place mailboxes to minimize distance for houses.
+
+183. **Maximum Height by Stacking Cuboids** (LeetCode #1691)
+     - Find maximum height by stacking boxes with rotation.
+
+184. **Reducing Dishes** (LeetCode #1402)
+     - Maximize satisfaction from cooking dishes.
+
+185. **Maximum Profit in Job Scheduling** (LeetCode #1235)
+     - Maximum profit from non-overlapping jobs.
+
+186. **Minimum Cost to Merge Stones** (LeetCode #1000)
+     - Minimum cost to merge piles of stones.
+
+187. **Minimum Moves to Make Array Complementary** (LeetCode #1674)
+     - Minimum operations to make array pairs sum to target.
+
+188. **Stock Price Fluctuation** (LeetCode)
+     - Track stock price fluctuations efficiently.
+
+189. **Maximum Value of K Coins From Piles** (LeetCode #2218)
+     - Maximum value by picking k coins from piles.
+
+190. **Optimal Account Balancing** (LeetCode #465)
+     - Minimum number of transactions to settle debts.
+
+191. **Number of Ways of Cutting a Pizza** (LeetCode #1444)
+     - Count ways to cut pizza with at least one apple in each piece.
+
+192. **Maximum Number of Events That Can Be Attended II** (LeetCode #1751)
+     - Maximum value from attending events with constraints.
+
+193. **Cherry Pickup** (LeetCode #741)
+     - Maximum cherries collected by walking grid twice.
+
+194. **Tallest Billboard** (LeetCode #956)
+     - Find tallest possible billboard using rods.
+
+195. **Number of Ways to Stay in the Same Place After Some Steps** (LeetCode #1269)
+     - Count ways to return to origin after steps.
+
+196. **Kth Ancestor of a Tree Node** (LeetCode #1483)
+     - Efficiently find kth ancestor in a tree.
+
+197. **Making A Large Island** (LeetCode #827)
+     - Maximum size of island after changing one cell.
+
+198. **Strobogrammatic Number III** (LeetCode #248)
+     - Count strobogrammatic numbers in a range.
+
+199. **Distinct Echo Substrings** (LeetCode #1316)
+     - Count distinct substrings that are repeated.
+
+200. **Minimum XOR Sum of Two Arrays** (LeetCode #1879)
+     - Minimum XOR sum by permuting one array.
